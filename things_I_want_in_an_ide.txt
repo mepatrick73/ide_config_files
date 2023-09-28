@@ -1,0 +1,47 @@
+Here is list of things of what an ide should and their bindings I need to implement:
+
+Basic stuff:
+		-leader key: space
+
+	harpoon/
+	pasting stuff:
+		-pasting a new line without insert mode: Leader-o
+		-pasting a new line above without insert mode Leader-O
+		-Ctrl-V in insert mode should paste from the clipboard register
+
+	tab/pane stuff:
+		-switching tabs: S-h left S-l right
+		-splittings panes: leader-v vertical pane, leader-s horizontal pane
+		-moving focus between panes: leader-h to the left, leader-j bottom, leader-k top, leader-l right
+		-close a tab should be done with leader-q
+		-closing down a pane should be done with leader-Q
+
+	file explorer stuff:
+		-Opening file explorer is done with Leader-n-e
+		-Creating new file is ctrl-n
+		-Creating new folder is Ctrl-shift-n
+		-Deleting should be done with Ctrl-shit-d
+		-Leader-f to allow me look up files
+		-standard vim motions to move up and down
+		-Ctrl-Q to leave the file tree
+		TODO: figure out a good keybind for leaving the file explorer, in vim land these are buffers
+
+	terminal stuff:
+		-Openin the terminal windows should be shift-j
+		-a new terminal should be shift-n
+		-go the next terminal with shift-a
+		-go previous terminal with shift-b
+	
+
+	harpoon stuff:
+
+	easy keybinds:
+		-rebinding :w to leader-w
+
+	cool keybinds: 
+
+	plugins I want to use:
+		-harpoon
+		-surround
+		-easymotion
+		...
