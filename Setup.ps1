@@ -6,8 +6,12 @@ $mappings = @(
     dest = "$PWD\PowerShell"
   },
   @{
-    source = "$Env:LocalAppData\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\"
+    source = "$Env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\"
     dest = "$PWD\WindowsTerminal"
+  },
+  @{
+    source = "$Env:LocalAppData\nvim\"
+    dest = "$PWD\nvim"
   }
 )
 

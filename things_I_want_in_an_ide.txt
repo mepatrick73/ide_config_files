@@ -27,10 +27,11 @@ Basic stuff:
 		TODO: figure out a good keybind for leaving the file explorer, in vim land these are buffers
 
 	terminal stuff:
-		-Openin the terminal windows should be shift-j
-		-a new terminal should be shift-n
-		-go the next terminal with shift-a
-		-go previous terminal with shift-b
+		-Opening the terminal windows should be ctrl-shift-j
+		-a new terminal should be ctrl-shift-t
+		-go the next terminal with ctrl-shift-a
+		-go previous terminal with ctrl-shift-b
+		-resizing up and down should be with ctrl-shit-d and ctrl-shift-u
 	
 
 	harpoon stuff:

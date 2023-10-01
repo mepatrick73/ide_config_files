@@ -12,6 +12,10 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "toggleAlwaysOnTop",
+            "keys": "alt+shift+f11"
+        },
+        {
             "command": "paste",
             "keys": "ctrl+v"
         },
@@ -22,10 +26,6 @@
         {
             "command": "toggleFocusMode",
             "keys": "shift+f11"
-        },
-        {
-            "command": "toggleAlwaysOnTop",
-            "keys": "alt+shift+f11"
         },
         {
             "command": 
@@ -52,10 +52,10 @@
         "list": 
         [
             {
-		"font":
-		{
-			"face": "CaskaydiaCove Nerd Font"
-		},
+                "font": 
+                {
+                    "face": "CaskaydiaCove Nerd Font"
+                },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
@@ -80,55 +80,16 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{0840b649-29b8-5eed-8c9e-43f959ac9074}",
-                "hidden": true,
+                "guid": "{584c2220-b0f1-5c26-8a70-a4965f909cde}",
+                "hidden": false,
                 "name": "Developer Command Prompt for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{cf467f16-a8fd-559b-8d94-35246fa29431}",
+                "guid": "{9717e0b8-c459-5131-b807-8ab307c27559}",
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{cb3e473c-55a5-554f-a297-ff5c727fcd70}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{ac3547ba-1611-5c6f-9629-9fa77b37fb99}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "backgroundImage": "C:\\Users\\Patrick\\Desktop\\pictures\\hd-country-life-at-night-vvxmbqzkr4uumuni-vvxmbqzkr4uumuni.jpg",
-                "colorScheme": "Tango Dark",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "Consolas",
-                    "size": 14.0
-                },
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "colorScheme": "Tango Dark",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "Consolas",
-                    "size": 14.0
-                },
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             }
         ]
     },
@@ -365,49 +326,5 @@
             "yellow": "#808000"
         }
     ],
-    "themes": 
-    [
-        {
-            "name": "legacyDark",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ]
+    "themes": []
 }
