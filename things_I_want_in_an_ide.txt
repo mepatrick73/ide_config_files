@@ -10,11 +10,11 @@ Basic stuff:
 		-Ctrl-V in insert mode should paste from the clipboard register
 
 	tab/pane stuff:
-		-switching tabs: S-h left S-l right
-		-splittings panes: leader-v vertical pane, leader-s horizontal pane
-		-moving focus between panes: leader-h to the left, leader-j bottom, leader-k top, leader-l right
-		-close a tab should be done with leader-q
-		-closing down a pane should be done with leader-Q
+		-switching tabs: c-shift-h left c-shift-l right
+		-splittings panes: c-% vertical pane, c-" horizontal pane
+		-moving focus between panes: c-h to the left, c-j bottom, c-k top, c-l right
+		-close a tab should be done: with c-q
+		-closing down a pane should be done with c-Q
 
 	file explorer stuff:
 		-Opening file explorer is done with Leader-n-e
@@ -27,7 +27,8 @@ Basic stuff:
 		TODO: figure out a good keybind for leaving the file explorer, in vim land these are buffers
 
 	terminal stuff:
-		-Openin the terminal windows should be shift-j
+		-Openin the terminal windows should be ctrl-shift-j //this will be splitting the view in wt
+		-resizing terminal ctrl-shift-u and ctrl-shift-d
 		-a new terminal should be shift-n
 		-go the next terminal with shift-a
 		-go previous terminal with shift-b
@@ -37,6 +38,7 @@ Basic stuff:
 
 	easy keybinds:
 		-rebinding :w to leader-w
+		-rebinding H to start of the line and L to $
 
 	cool keybinds: 
 
