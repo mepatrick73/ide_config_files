@@ -1,0 +1,9 @@
+-Install Windows terminal
+-Install Powershell 7 
+-Make Powershell default shell in windows terminal
+-Make Windows Terminal main terminal
+-Open settings.json
+-Make the non useful shells hidden
+-Install Oh-My-Posh
+-Change the font
+
