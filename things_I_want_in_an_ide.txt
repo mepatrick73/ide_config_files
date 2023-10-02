@@ -28,10 +28,11 @@ Basic stuff:
 
 	terminal stuff:
 		-Openin the terminal windows should be ctrl-shift-j //this will be splitting the view in wt
-		-resizing terminal ctrl-shift-u and ctrl-shift-d
-		-a new terminal should be shift-n
-		-go the next terminal with shift-a
-		-go previous terminal with shift-b
+		-resizing terminal alt-u and alt-d
+		-changing focus alt-hjkl
+		-a new terminal should be ctrl-shift-1
+		-go the next terminal with ctrl-a
+		-go previous terminal with ctrl-b
 	
 
 	harpoon stuff:
