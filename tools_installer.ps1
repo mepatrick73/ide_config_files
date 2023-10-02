@@ -4,4 +4,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 winget install -e --id Git.Git
 winget install Neovim.Neovim
 winget install JanDeDobbeleer.OhMyPosh -s winget
-
+winget install -e --id=JesseDuffield.lazygit
