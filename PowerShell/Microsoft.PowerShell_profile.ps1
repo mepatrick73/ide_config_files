@@ -1,3 +1,5 @@
+Install-Module -Name PSReadLine -Force
+Install-Module -Name Terminal-Icons -Repository PSGallery
 function prompt {
   $loc = $executionContext.SessionState.Path.CurrentLocation;
 
