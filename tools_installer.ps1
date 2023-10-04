@@ -5,3 +5,5 @@ winget install -e --id Git.Git
 winget install Neovim.Neovim
 winget install JanDeDobbeleer.OhMyPosh -s winget
 winget install -e --id=JesseDuffield.lazygit
+Install-Module -Name Terminal-Icons -Repository PSGallery
+winget install BurntSushi.ripgrep.MSVC
