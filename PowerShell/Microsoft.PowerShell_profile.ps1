@@ -23,6 +23,8 @@ if ($host.Name -eq 'ConsoleHost')
         Write-Host -NoNewLine "`e[5 q"
     }
     }
+    Set-PSReadLineOption -PredictionSource History
+    Set-PSReadLineOption -PredictionViewStyle ListView
     Set-PsReadLineOption -EditMode Vi 
     Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $OnViModeChange
     Set-PSReadlineKeyHandler -Chord Ctrl+n   -Function HistorySearchBackward 
