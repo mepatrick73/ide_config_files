@@ -29,6 +29,9 @@ if ($host.Name -eq 'ConsoleHost')
     Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $OnViModeChange
     Set-PSReadlineKeyHandler -Chord Ctrl+n   -Function HistorySearchBackward 
     Set-PSReadlineKeyHandler -Chord Ctrl+p -Function HistorySearchForward 
-    Set-PSReadlineKeyHandler -Chord Ctrl+" "   -Function Complete 
+    Set-PSReadlineKeyHandler -Chord Shift+" "   -Function Complete 
     Set-PSReadLineKeyHandler -Chord Ctrl+u    -Function RevertLine
+    Set-PSReadlineKeyHandler -Key Ctrl+" " -ScriptBlock {}
+    Set-PSReadlineKeyHandler -Key Ctrl+e -ScriptBlock {}
+
 }
