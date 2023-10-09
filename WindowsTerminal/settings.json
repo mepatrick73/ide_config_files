@@ -12,12 +12,12 @@
             "keys": "ctrl+c"
         },
         {
-            "command": "toggleAlwaysOnTop",
-            "keys": "alt+shift+f11"
-        },
-        {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": "toggleAlwaysOnTop",
+            "keys": "alt+shift+f11"
         },
         {
             "command": "find",
@@ -89,6 +89,18 @@
                 "guid": "{9717e0b8-c459-5131-b807-8ab307c27559}",
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{9b4d2e05-ad21-5807-9ead-62e20eeb4e40}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{d167cd8b-b0b4-5c6b-bddf-0175eca3c257}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2019",
                 "source": "Windows.Terminal.VisualStudio"
             }
         ]

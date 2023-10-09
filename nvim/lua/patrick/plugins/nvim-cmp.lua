@@ -17,7 +17,7 @@ return{
         require("luasnip.loaders.from_vscode").lazy_load()
 
         cmp.setup({
-            completion = { completeopt = "menu,menuone,preview,noselect", },
+            completion = { completeopt = "menu,menuone,preview,", },
             snippet = {
                 expand = function(args)
                     luasnip.lsp_expand(args.body)

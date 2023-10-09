@@ -36,7 +36,7 @@ return {
 
             opts.desc = "Show buffer diagnostics"
             keymap.set("n", "<leader>D", "<cmdTelescope diagnostics bufnr=0<CR>", opts)
-            
+
             opts.desc = "Show line diagnostics"
             keymap.set("n", "<leader>d", vim.diagnostic.open_float, opts)
 
